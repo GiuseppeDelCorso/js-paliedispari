@@ -1,26 +1,25 @@
-const parola = prompt ("Inserisci Parola" );
+/**const parola = prompt ("Inserisci Parola" );
 
 for (let i = 0; i < parola.length; i++) {
     
-    console.log ( parola [i] );
+    
 }
 
 
-/****function invertiParola(stringa){
+function invertiParola(stringa){
 
-    for (var i=stringa.length-1; i>=0; i--)console.log(stringa[i]);
-    document.write("");
-    
-    parolaInv += (stringa[i]);
-      return parolaInv
+let parolaInv = ""
+
+    for (let i=stringa.length-1; i>=0; i--){
+        
+        console.log(stringa[i]);
+        parolaInv += stringa[i];
     }
-
-
-    parolaInv=new Array (parola);
-    for (i=0;i < parolaInv.length; i++){
-    invertiParola(parolaInv[i]);
     
-    }
+    return parolaInv
+} 
+
+let parolaInv = invertiParola(parola);
 
 
     if (parola == parolaInv) {
@@ -29,9 +28,12 @@ for (let i = 0; i < parola.length; i++) {
     }else {
         console.log("errato")
     }
-    ******/
 
-    var parolaSplit = parola.split("")
+
+
+
+
+/** *  var parolaSplit = parola.split("")
     var parolaSplit = parolaSplit.reverse()
     var parolaInv = parolaSplit.join("")
 
@@ -41,4 +43,4 @@ for (let i = 0; i < parola.length; i++) {
         
     }else{
         console.log("no")
-    }
+    }**/
