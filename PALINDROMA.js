@@ -11,7 +11,7 @@ function invertiParola(stringa){
     for (var l=stringa.length-1; l>=0; l--)console.log(stringa.charAt(l));
     document.write("");
     
-
+    parolaInv += (stringa.charAt(l));
       return parolaInv
     }
 
