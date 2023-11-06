@@ -6,12 +6,12 @@ for (let i = 0; i < parola.length; i++) {
 }
 
 
-function invertiParola(stringa){
+/****function invertiParola(stringa){
 
-    for (var l=stringa.length-1; l>=0; l--)console.log(stringa.charAt(l));
+    for (var i=stringa.length-1; i>=0; i--)console.log(stringa[i]);
     document.write("");
     
-    parolaInv += (stringa.charAt(l));
+    parolaInv += (stringa[i]);
       return parolaInv
     }
 
@@ -24,5 +24,19 @@ function invertiParola(stringa){
 
 
     if (parola == parolaInv) {
-        
+        console.log("esatto")
+
+    }else {
+        console.log("errato")
     }
+    ******/
+
+    var parolaSplit = parola.split("")
+    var parolaSplit = parolaSplit.reverse()
+    var parolaInv = parolaSplit.join("")
+
+    if (parola == parolaInv) {
+         
+        console.log(Yes)
+        
+    }else
