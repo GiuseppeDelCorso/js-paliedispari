@@ -37,6 +37,8 @@ for (let i = 0; i < parola.length; i++) {
 
     if (parola == parolaInv) {
          
-        console.log(Yes)
+        console.log("yes")
         
-    }else
+    }else{
+        console.log("no")
+    }
